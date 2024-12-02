@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('maintitle', 'products')
+@section('maintitle', 'Pokemons')
 
 @section('title', '')
 
