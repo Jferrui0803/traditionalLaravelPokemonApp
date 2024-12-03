@@ -1,0 +1,105 @@
+/* public/css/pokemon.css */
+
+body {
+    background-color: #f3f3f3; /* Fondo claro profesional */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Texto en gris oscuro para buena legibilidad */
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    border: 2px solid #3b4cca; /* Azul intenso Pokémon */
+    background-color: #ffffff; /* Fondo blanco para claridad */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profesionalidad */
+}
+
+.table th {
+    background-color: #3b4cca; /* Azul intenso */
+    color: #ffffff; /* Texto blanco */
+    text-transform: uppercase; /* Letras en mayúscula */
+    padding: 10px;
+    font-size: 16px;
+}
+
+.table td {
+    border-bottom: 1px solid #dddddd; /* Línea suave entre filas */
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.table td:last-child {
+    border-right: none;
+}
+
+#tablaPokemon {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.pokemon-header {
+    text-align: center;
+    margin: 30px 0;
+    color: #3b4cca; /* Azul intenso */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pokemon-header img {
+    width: 120px;
+    border: 4px solid #ffcb05; /* Borde amarillo vibrante */
+    border-radius: 50%; /* Redondeado como una Poké Ball */
+    padding: 10px;
+    background-color: #ffffff; /* Contraste con el borde */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+.btn-success {
+    background-color: #ffcb05; /* Amarillo Pokémon */
+    border-color: #3b4cca; /* Azul intenso para contraste */
+    color: #ffffff; /* Texto blanco para profesionalidad */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success:hover {
+    background-color: #f7b500; /* Amarillo más oscuro al pasar el cursor */
+    border-color: #2a3b8f; /* Azul más oscuro */
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Colores oscuros para encabezados */
+}
+
+a {
+    color: #3b4cca; /* Azul intenso */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff0000; /* Rojo vibrante al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* General layout adjustments for a clean look */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 14px;
+}

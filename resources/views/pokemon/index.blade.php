@@ -1,7 +1,10 @@
 @extends('product.base')
 
 @section('title', 'Lista de Pokémon')
+
 @section('content')
+<link rel="stylesheet" href="{{ asset('assets/css/pokemon.css') }}">
+
     <table class="table table-striped table-hover" id="tablaPokemon">
         <thead>
             <tr>
